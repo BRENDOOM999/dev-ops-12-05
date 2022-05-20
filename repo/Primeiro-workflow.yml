@@ -1,0 +1,19 @@
+#Nome do workflow
+
+nome: comandos Shell
+
+#Eventos(gatilhos que ativam a execução)
+on: [push]
+
+jobs:
+  rodar-comandos-shell:
+    #ambiente
+    runs-on: ubuntu-latest 
+    steps: 
+      - name: Exibir uma string 
+        run: echo "Olá Mundo"
+      - name: Script de varias linhas
+        run:  
+          node -v
+          npm -v
+
