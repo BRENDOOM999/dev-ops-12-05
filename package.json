@@ -1,0 +1,23 @@
+{
+  "name": "12-05-devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BRENDOOM999/dev-ops-12-05.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BRENDOOM999/dev-ops-12-05/issues"
+  },
+  "homepage": "https://github.com/BRENDOOM999/dev-ops-12-05#readme",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
+}
